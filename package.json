@@ -1,0 +1,70 @@
+{
+  "name": "nextjs-mdx-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Next.js, Linaria, TypeScript and MDX Blog Portifolio",
+  "author": {
+    "name": "Clovis Rosa",
+    "email": "clovis.souzarosa@gmail.com",
+    "url": "https://clovisrosa.vercel.app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clovis-rosa/nextjs-mdx-portfolio.git"
+  },
+  "license": "MIT",
+  "main": "index.html",
+  "keywords": [
+    "nextjs",
+    "markdown",
+    "typescript",
+    "linaria",
+    "mdx",
+    "blog",
+    "portfolio"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clr": "rm -rf .next node_modules package-lock.json yarn.lock pnpm-lock.yaml"
+  },
+  "dependencies": {
+    "@linaria/babel-preset": "^4.4.1",
+    "@linaria/core": "^4.2.6",
+    "@linaria/react": "^4.3.4",
+    "@next/font": "13.0.4",
+    "next": "13.0.4",
+    "next-with-linaria": "^0.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.0.4",
+    "prettier": "^2.8.4",
+    "typescript": "4.9.5"
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "arrowParens": "always",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "semi": false,
+    "trailingComma": "es5",
+    "printWidth": 80,
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxSingleQuote": false,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "requirePragma": false,
+    "useTabs": false
+  }
+}
