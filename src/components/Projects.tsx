@@ -1,4 +1,3 @@
-import { styled } from '@linaria/react'
 import ProjectsCard from './ui/ProjectsCard'
 
 export default function Projects() {
