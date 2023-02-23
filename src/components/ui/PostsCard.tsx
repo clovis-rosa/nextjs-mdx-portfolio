@@ -10,43 +10,41 @@ interface PostCardProp {
   date: string
 }
 
-const posts: any[] = [
+const posts: PostCardProp[] = [
   {
     id: '01',
     title: 'ArtMuseum Sao Paulo',
-    slug: 'http://art.vercel.app',
+    slug: 'https://google.com',
     date: '2022-11-09',
   },
   {
     id: '02',
     title: 'Senju Motomachi Souko',
-    slug: 'http://senjumotomachisouko.tokyo/',
+    slug: 'https://google.com',
     date: '2022-12-16',
   },
   {
     id: '03',
     title: 'Pangram Pangram',
-    slug: 'https://pangrampangram.com/',
+    slug: 'https://google.com',
     date: '2023-01-06',
   },
   {
     id: '04',
     title: 'Milan Vučković',
-    slug: 'https://www.milanvuckovic.co/',
+    slug: 'https://google.com',
     date: '2023-02-05',
   },
-  ,
   {
     id: '05',
     title: 'The decade that brought us Star Trek and Doctor Who',
-    slug: 'https://www.milanvuckovic.co/',
+    slug: 'https://google.com',
     date: '2023-02-17',
   },
-  ,
   {
     id: '06',
     title: 'As front-end developer Kyle Fiedler put it',
-    slug: 'https://www.milanvuckovic.co/',
+    slug: 'https://google.com',
     date: '2022-12-28',
   },
 ]

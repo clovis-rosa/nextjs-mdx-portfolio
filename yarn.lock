@@ -1224,6 +1224,11 @@
   dependencies:
     tslib "^2.4.0"
 
+"@total-typescript/ts-reset@^0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@total-typescript/ts-reset/-/ts-reset-0.3.7.tgz#66d0d9d3a9d8055b876640b7d0231809e01351b7"
+  integrity sha512-yXt2BRRVCJVvzWaxac5n0nCXzIrQEBE/MeYlNQ8/Iq7UeelNmm/AdnUAu18ilSS893mbEQ4u6whPt/HvOPc4rw==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
