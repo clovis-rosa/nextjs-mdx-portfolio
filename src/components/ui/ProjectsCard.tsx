@@ -7,7 +7,7 @@ interface ProjectProp {
   id: string
   name: string
   details: string
-  url: string
+  url: string | any
   image: string
 }
 
@@ -16,28 +16,28 @@ const projects: ProjectProp[] = [
     id: '1',
     name: 'ArtMuseum Sao Paulo',
     details: 'HygraphCMS, NextJS, Styled-Components',
-    url: 'http://google.com',
+    url: 'artmuseum-sao-paulo',
     image: '/assets/chrisbiron.jpg',
   },
   {
     id: '2',
     name: 'Senju Motomachi Souko',
     details: 'PrismicCMS, NextJS, LinariaJS,',
-    url: 'http://google.com',
+    url: 'senju-motomachi-souko',
     image: '/assets/korty.jpg',
   },
   {
     id: '3',
     name: 'Pangram Pangram',
     details: 'NextJS, TailwindCSS',
-    url: 'http://google.com',
+    url: 'pangram-pangram',
     image: '/assets/happyplates.jpg',
   },
   {
     id: '4',
     name: 'Milan Vučković',
     details: 'ReactJS, Vite, SCSS',
-    url: 'http://google.com',
+    url: 'milan-vuckovic',
     image: '/assets/conradstel.jpg',
   },
 ]

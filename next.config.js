@@ -5,13 +5,14 @@ const withLinaria = require('next-with-linaria')
 const config = {
   reactStrictMode: true,
   swcMinify: true,
+  modularizeImports: {
+    'react-icons': {
+      transform: 'react-icons/{{member}}',
+    },
+  },
   experimental: {
     appDir: true,
-    modularizeImports: {
-      'react-icons': {
-        transform: 'react-icons/{{member.name}}',
-      },
-    },
+    typedRoutes: true,
   },
   images: {
     formats: ['image/webp', 'image/avif'],

@@ -6,7 +6,7 @@ import { formateDate } from '@/lib/formateDate'
 interface PostCardProp {
   id: string
   title: string
-  slug: string
+  slug: string | any
   date: string
 }
 
