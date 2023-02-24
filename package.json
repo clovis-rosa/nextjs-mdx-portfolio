@@ -34,7 +34,6 @@
     "@linaria/babel-preset": "^4.4.3",
     "@linaria/core": "^4.2.8",
     "@linaria/react": "^4.3.6",
-    "@next/font": "13.2.0",
     "next": "13.2.0",
     "next-with-linaria": "^0.4.0",
     "react": "18.2.0",

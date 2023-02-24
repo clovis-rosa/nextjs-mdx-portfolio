@@ -7,7 +7,7 @@ interface ProjectProp {
   id: string
   name: string
   details: string
-  url: string | any
+  url: string
   image: string
 }
 

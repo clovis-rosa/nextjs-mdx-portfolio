@@ -12,7 +12,7 @@ const config = {
   },
   experimental: {
     appDir: true,
-    typedRoutes: true,
+    // typedRoutes: true,
   },
   images: {
     formats: ['image/webp', 'image/avif'],

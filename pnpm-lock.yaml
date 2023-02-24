@@ -4,7 +4,6 @@ specifiers:
   '@linaria/babel-preset': ^4.4.3
   '@linaria/core': ^4.2.8
   '@linaria/react': ^4.3.6
-  '@next/font': 13.2.0
   '@total-typescript/ts-reset': ^0.3.7
   '@types/node': 18.14.1
   '@types/react': 18.0.28
@@ -23,7 +22,6 @@ dependencies:
   '@linaria/babel-preset': 4.4.3
   '@linaria/core': 4.2.8
   '@linaria/react': 4.3.6_react@18.2.0
-  '@next/font': 13.2.0
   next: 13.2.0_biqbaboplfbrettd7655fr4n2y
   next-with-linaria: 0.4.0_7ewdg5pzqjfhwwe2nc4uvsjxdm
   react: 18.2.0
@@ -1412,10 +1410,6 @@ packages:
     dependencies:
       glob: 7.1.7
     dev: true
-
-  /@next/font/13.2.0:
-    resolution: {integrity: sha512-pWoegIxqegV+9+gFmRCZao6xhA2m3kKS34lMXqShJ5ibRuyHkP/tfDE82LzYZmVQ3p51ZrkwTugNwy/ohiE2cA==}
-    dev: false
 
   /@next/swc-android-arm-eabi/13.2.0:
     resolution: {integrity: sha512-VMetUwBWtDBGzNiOkhiWTP+99ZYW5NVRpIGlUsldEtY8IQIqleaUgW9iamsO0kDSjhWNdCQCB+xu5HcCvmDTww==}
