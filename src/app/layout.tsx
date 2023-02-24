@@ -1,4 +1,3 @@
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 import Footer from '@/components/Footer'
@@ -11,7 +10,7 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
-export const metadata: Metadata = {
+export const metadata = {
   title: {
     default: 'NextJS MDX Portfolio',
     template: '%s | NextJS MDX Portfolio',
